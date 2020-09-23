@@ -61,6 +61,7 @@
 		1A259CA7251B849E00FDEE60 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A259CA6251B849E00FDEE60 /* Common.swift */; };
 		1A259CAF251B880600FDEE60 /* Certification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A259CAE251B880600FDEE60 /* Certification.storyboard */; };
 		1A259CB6251B8AA500FDEE60 /* PhoneCertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A259CB5251B8AA500FDEE60 /* PhoneCertVC.swift */; };
+		1A259CBE251B95BD00FDEE60 /* AuthorityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A259CBD251B95BD00FDEE60 /* AuthorityVC.swift */; };
 		6F02316E0199F918FCFC0A2F /* Pods_PlugIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8C3F637652B93D59373102 /* Pods_PlugIt.framework */; };
 /* End PBXBuildFile section */
 
@@ -116,6 +117,7 @@
 		1A259CA6251B849E00FDEE60 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		1A259CAE251B880600FDEE60 /* Certification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Certification.storyboard; sourceTree = "<group>"; };
 		1A259CB5251B8AA500FDEE60 /* PhoneCertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCertVC.swift; sourceTree = "<group>"; };
+		1A259CBD251B95BD00FDEE60 /* AuthorityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorityVC.swift; sourceTree = "<group>"; };
 		1C473AEBF860A1DD3A032490 /* Pods-PlugIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlugIt.debug.xcconfig"; path = "Target Support Files/Pods-PlugIt/Pods-PlugIt.debug.xcconfig"; sourceTree = "<group>"; };
 		7A8C3F637652B93D59373102 /* Pods_PlugIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlugIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80EE5036D2AB331E9EDFCFEC /* Pods-PlugIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlugIt.release.xcconfig"; path = "Target Support Files/Pods-PlugIt/Pods-PlugIt.release.xcconfig"; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 				1A259C66251B663500FDEE60 /* SignUpNameVC.swift */,
 				1A259C8C251B710A00FDEE60 /* SignUpEmailVC.swift */,
 				1A259C9C251B839900FDEE60 /* SignUpPhoneVC.swift */,
+				1A259CBD251B95BD00FDEE60 /* AuthorityVC.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -526,6 +529,7 @@
 				1A259C88251B708B00FDEE60 /* ExtensionCollection.swift in Sources */,
 				1A259C67251B663500FDEE60 /* SignUpNameVC.swift in Sources */,
 				1A259BE3251B393A00FDEE60 /* StartVC.swift in Sources */,
+				1A259CBE251B95BD00FDEE60 /* AuthorityVC.swift in Sources */,
 				1A259CB6251B8AA500FDEE60 /* PhoneCertVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,14 +8,16 @@
 import UIKit
 
 class PhoneCertVC: UIViewController {
-//    @IBOutlet weak var wellcomeGL: UILabel!
-//    @IBOutlet weak var nameAnimationWrap: UIView!
-//    @IBOutlet weak var progressBar: UIView!
-//    @IBOutlet weak var emailWrap: UIView!
-//    
-//    @IBOutlet weak var phoneWrap: UIView!
-//    @IBOutlet weak var nameWrap: UIView!
-//    @IBOutlet weak var nextStepBtn: UIButton!
+
+    @IBOutlet weak var progressBar: UIView!
+    
+    @IBOutlet weak var numberWrap1: UIView!
+    @IBOutlet weak var numberWrap2: UIView!
+    @IBOutlet weak var numberWrap3: UIView!
+    @IBOutlet weak var numberWrap4: UIView!
+    @IBOutlet weak var numberWrap5: UIView!
+    @IBOutlet weak var numberWrap6: UIView!
+    @IBOutlet weak var nextStepBtn: UIButton!
 //    @IBOutlet weak var delBtn: UIButton!
 //    @IBOutlet weak var nameGL: UILabel!
 //    @IBOutlet weak var nextBtnWrap: UIView!
@@ -31,21 +33,28 @@ class PhoneCertVC: UIViewController {
 //    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.uiInit()
+        self.uiInit()
 //        self.keyboardInit()
 //        self.delegateInit()
     }
     
-//    func uiInit() {
-//        wellcomeGL.text = "반갑습니다, \(name) 님"
-//        nameGL.text = "\(name)"
-//        emailGL.text = "\(email)"
-//        nameWrap.layer.cornerRadius = 15.0
-//        emailWrap.layer.cornerRadius = 15.0
-//        phoneWrap.layer.cornerRadius = 15.0
-//        nextStepBtn.layer.cornerRadius = 15.0
-//        delBtn.isHidden = true
-//    }
+    func uiInit() {
+        nextStepBtn.layer.cornerRadius = 15.0
+        numberWrap1.layer.cornerRadius = 10.0
+        numberWrap2.layer.cornerRadius = 10.0
+        numberWrap3.layer.cornerRadius = 10.0
+        numberWrap4.layer.cornerRadius = 10.0
+        numberWrap5.layer.cornerRadius = 10.0
+        numberWrap6.layer.cornerRadius = 10.0 
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.progressBar.constraints[0].constant =  (deviceWidth/10) * 8.0
+        UIView.animate(withDuration: 0.2) {
+            self.view.layoutIfNeeded()
+        }
+    }
+    
 //
 //    override func viewWillAppear(_ animated: Bool) {
 //        self.nameAnimationWrap.constraints[0].constant = self.nameAnimationWrapHeight + 70.0 + 60.0
@@ -98,11 +107,16 @@ class PhoneCertVC: UIViewController {
 //        }
 //    }
 //
-//    //입력 텍스트 밖 영역 클릭시 키보드 내려가도록 해주는 함수
-//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-//        self.view.endEditing(true)
-//    }
-//
+    //입력 텍스트 밖 영역 클릭시 키보드 내려가도록 해주는 함수
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    @IBAction func nextStepBtn(_ sender: Any) {
+        let authorityVC = signUpStoryBoard.instantiateViewController(withIdentifier: "AuthorityVC") as! AuthorityVC
+      
+        self.present(authorityVC, animated: true, completion: nil)
+    }
+    //
 //    @IBAction func nextStepBtn(_ sender: Any) {
 //        print("nextBtnClick")
 //    }
