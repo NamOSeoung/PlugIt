@@ -23,6 +23,7 @@ class SignUpNameVC: UIViewController {
         self.keyboardInit()
         self.delegateInit()
         
+        
     }
     
     func uiInit() {
@@ -30,6 +31,7 @@ class SignUpNameVC: UIViewController {
         nextStepBtn.layer.cornerRadius = 15.0
         
         delBtn.isHidden = true
+        self.nameTF.becomeFirstResponder()
     }
     
     

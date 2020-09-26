@@ -16,7 +16,6 @@
 		1A259BE3251B393A00FDEE60 /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A259BE2251B393A00FDEE60 /* StartVC.swift */; };
 		1A259BEC251B399300FDEE60 /* StoryBoardInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A259BEB251B399300FDEE60 /* StoryBoardInstance.swift */; };
 		1A259BF1251B3E4100FDEE60 /* AppleSDGothicNeoEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A259BF0251B3E3100FDEE60 /* AppleSDGothicNeoEB.ttf */; };
-		1A259BF5251B3E8F00FDEE60 /* AppleSDGothicNeoEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A259BF0251B3E3100FDEE60 /* AppleSDGothicNeoEB.ttf */; };
 		1A259BF9251B3E9000FDEE60 /* AppleSDGothicNeoEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A259BF0251B3E3100FDEE60 /* AppleSDGothicNeoEB.ttf */; };
 		1A259C10251B613500FDEE60 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A259C0F251B613500FDEE60 /* SignUp.storyboard */; };
 		1A259C3E251B623800FDEE60 /* SF-Compact-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1A259C34251B623700FDEE60 /* SF-Compact-Text-Light.otf */; };
@@ -62,6 +61,64 @@
 		1A259CAF251B880600FDEE60 /* Certification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A259CAE251B880600FDEE60 /* Certification.storyboard */; };
 		1A259CB6251B8AA500FDEE60 /* PhoneCertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A259CB5251B8AA500FDEE60 /* PhoneCertVC.swift */; };
 		1A259CBE251B95BD00FDEE60 /* AuthorityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A259CBD251B95BD00FDEE60 /* AuthorityVC.swift */; };
+		1A2B7FDA251F598600372D3F /* CarRegist.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B7FD9251F598600372D3F /* CarRegist.storyboard */; };
+		1A2B7FDF251F769600372D3F /* CarRegistColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B7FDE251F769600372D3F /* CarRegistColorVC.swift */; };
+		1A2B7FE4251F76A900372D3F /* CarRegistModelOptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B7FE3251F76A900372D3F /* CarRegistModelOptionVC.swift */; };
+		1A2B7FEC251F76E900372D3F /* CarRegistColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B7FEB251F76E900372D3F /* CarRegistColorCell.swift */; };
+		1A2B7FF1251F76F500372D3F /* CarRegistColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B7FF0251F76F500372D3F /* CarRegistColorCell.xib */; };
+		1A2B7FF6251F783200372D3F /* CarRegistColorTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B7FF5251F783200372D3F /* CarRegistColorTV.swift */; };
+		1AEC112C251DBF39002A3092 /* AppleSDGothicNeoEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A259BF0251B3E3100FDEE60 /* AppleSDGothicNeoEB.ttf */; };
+		1AEC1132251DCCB1002A3092 /* BottomSheet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1131251DCCB1002A3092 /* BottomSheet.storyboard */; };
+		1AEC1141251DD1EF002A3092 /* SignUpTermsBS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC1140251DD1EF002A3092 /* SignUpTermsBS.swift */; };
+		1AEC1149251DF28B002A3092 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1145251DF28A002A3092 /* NotoSans-Italic.ttf */; };
+		1AEC114A251DF28B002A3092 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1145251DF28A002A3092 /* NotoSans-Italic.ttf */; };
+		1AEC114B251DF28B002A3092 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1145251DF28A002A3092 /* NotoSans-Italic.ttf */; };
+		1AEC114C251DF28B002A3092 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1146251DF28B002A3092 /* NotoSans-Regular.ttf */; };
+		1AEC114D251DF28B002A3092 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1146251DF28B002A3092 /* NotoSans-Regular.ttf */; };
+		1AEC114E251DF28B002A3092 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1146251DF28B002A3092 /* NotoSans-Regular.ttf */; };
+		1AEC114F251DF28B002A3092 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1147251DF28B002A3092 /* NotoSans-BoldItalic.ttf */; };
+		1AEC1150251DF28B002A3092 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1147251DF28B002A3092 /* NotoSans-BoldItalic.ttf */; };
+		1AEC1151251DF28B002A3092 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1147251DF28B002A3092 /* NotoSans-BoldItalic.ttf */; };
+		1AEC1152251DF28B002A3092 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1148251DF28B002A3092 /* NotoSans-Bold.ttf */; };
+		1AEC1153251DF28B002A3092 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1148251DF28B002A3092 /* NotoSans-Bold.ttf */; };
+		1AEC1154251DF28B002A3092 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1148251DF28B002A3092 /* NotoSans-Bold.ttf */; };
+		1AEC1164251DF4C0002A3092 /* NotoSansCJKkr-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC115B251DF4BF002A3092 /* NotoSansCJKkr-Light.otf */; };
+		1AEC1165251DF4C0002A3092 /* NotoSansCJKkr-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC115B251DF4BF002A3092 /* NotoSansCJKkr-Light.otf */; };
+		1AEC1166251DF4C0002A3092 /* NotoSansCJKkr-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC115B251DF4BF002A3092 /* NotoSansCJKkr-Light.otf */; };
+		1AEC1167251DF4C0002A3092 /* NotoSansMonoCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC115C251DF4BF002A3092 /* NotoSansMonoCJKkr-Bold.otf */; };
+		1AEC1168251DF4C0002A3092 /* NotoSansMonoCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC115C251DF4BF002A3092 /* NotoSansMonoCJKkr-Bold.otf */; };
+		1AEC1169251DF4C0002A3092 /* NotoSansMonoCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC115C251DF4BF002A3092 /* NotoSansMonoCJKkr-Bold.otf */; };
+		1AEC116A251DF4C0002A3092 /* NotoSansCJKkr-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC115D251DF4C0002A3092 /* NotoSansCJKkr-Black.otf */; };
+		1AEC116B251DF4C0002A3092 /* NotoSansCJKkr-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC115D251DF4C0002A3092 /* NotoSansCJKkr-Black.otf */; };
+		1AEC116C251DF4C0002A3092 /* NotoSansCJKkr-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC115D251DF4C0002A3092 /* NotoSansCJKkr-Black.otf */; };
+		1AEC116D251DF4C0002A3092 /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC115E251DF4C0002A3092 /* NotoSansCJKkr-Bold.otf */; };
+		1AEC116E251DF4C0002A3092 /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC115E251DF4C0002A3092 /* NotoSansCJKkr-Bold.otf */; };
+		1AEC116F251DF4C0002A3092 /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC115E251DF4C0002A3092 /* NotoSansCJKkr-Bold.otf */; };
+		1AEC1170251DF4C0002A3092 /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC115F251DF4C0002A3092 /* NotoSansCJKkr-Regular.otf */; };
+		1AEC1171251DF4C0002A3092 /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC115F251DF4C0002A3092 /* NotoSansCJKkr-Regular.otf */; };
+		1AEC1172251DF4C0002A3092 /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC115F251DF4C0002A3092 /* NotoSansCJKkr-Regular.otf */; };
+		1AEC1173251DF4C0002A3092 /* NotoSansMonoCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1160251DF4C0002A3092 /* NotoSansMonoCJKkr-Regular.otf */; };
+		1AEC1174251DF4C0002A3092 /* NotoSansMonoCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1160251DF4C0002A3092 /* NotoSansMonoCJKkr-Regular.otf */; };
+		1AEC1175251DF4C0002A3092 /* NotoSansMonoCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1160251DF4C0002A3092 /* NotoSansMonoCJKkr-Regular.otf */; };
+		1AEC1176251DF4C0002A3092 /* NotoSansCJKkr-DemiLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1161251DF4C0002A3092 /* NotoSansCJKkr-DemiLight.otf */; };
+		1AEC1177251DF4C0002A3092 /* NotoSansCJKkr-DemiLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1161251DF4C0002A3092 /* NotoSansCJKkr-DemiLight.otf */; };
+		1AEC1178251DF4C0002A3092 /* NotoSansCJKkr-DemiLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1161251DF4C0002A3092 /* NotoSansCJKkr-DemiLight.otf */; };
+		1AEC1179251DF4C0002A3092 /* NotoSansCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1162251DF4C0002A3092 /* NotoSansCJKkr-Medium.otf */; };
+		1AEC117A251DF4C0002A3092 /* NotoSansCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1162251DF4C0002A3092 /* NotoSansCJKkr-Medium.otf */; };
+		1AEC117B251DF4C0002A3092 /* NotoSansCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1162251DF4C0002A3092 /* NotoSansCJKkr-Medium.otf */; };
+		1AEC117C251DF4C0002A3092 /* NotoSansCJKkr-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1163251DF4C0002A3092 /* NotoSansCJKkr-Thin.otf */; };
+		1AEC117D251DF4C0002A3092 /* NotoSansCJKkr-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1163251DF4C0002A3092 /* NotoSansCJKkr-Thin.otf */; };
+		1AEC117E251DF4C0002A3092 /* NotoSansCJKkr-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1163251DF4C0002A3092 /* NotoSansCJKkr-Thin.otf */; };
+		1AEC1186251E002A002A3092 /* PasswordSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC1185251E002A002A3092 /* PasswordSettingVC.swift */; };
+		1AEC1187251E002A002A3092 /* PasswordSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC1185251E002A002A3092 /* PasswordSettingVC.swift */; };
+		1AEC1188251E002A002A3092 /* PasswordSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC1185251E002A002A3092 /* PasswordSettingVC.swift */; };
+		1AEC1194251E0B28002A3092 /* SignUpCompleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC1193251E0B28002A3092 /* SignUpCompleteVC.swift */; };
+		1AEC11A5251E124A002A3092 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC11A4251E124A002A3092 /* Home.storyboard */; };
+		1AEC11AA251E148B002A3092 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC11A9251E148B002A3092 /* HomeVC.swift */; };
+		1AEC11AF251E24BC002A3092 /* AlarmPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC11AE251E24BC002A3092 /* AlarmPageVC.swift */; };
+		1AEC11B6251E24F6002A3092 /* AlarmPageTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC11B5251E24F6002A3092 /* AlarmPageTV.swift */; };
+		1AEC11BE251E2625002A3092 /* AlarmCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC11BD251E2625002A3092 /* AlarmCell.xib */; };
+		1AEC11C3251E2637002A3092 /* AlarmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC11C2251E2637002A3092 /* AlarmCell.swift */; };
 		6F02316E0199F918FCFC0A2F /* Pods_PlugIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8C3F637652B93D59373102 /* Pods_PlugIt.framework */; };
 /* End PBXBuildFile section */
 
@@ -118,6 +175,35 @@
 		1A259CAE251B880600FDEE60 /* Certification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Certification.storyboard; sourceTree = "<group>"; };
 		1A259CB5251B8AA500FDEE60 /* PhoneCertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCertVC.swift; sourceTree = "<group>"; };
 		1A259CBD251B95BD00FDEE60 /* AuthorityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorityVC.swift; sourceTree = "<group>"; };
+		1A2B7FD9251F598600372D3F /* CarRegist.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarRegist.storyboard; sourceTree = "<group>"; };
+		1A2B7FDE251F769600372D3F /* CarRegistColorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRegistColorVC.swift; sourceTree = "<group>"; };
+		1A2B7FE3251F76A900372D3F /* CarRegistModelOptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRegistModelOptionVC.swift; sourceTree = "<group>"; };
+		1A2B7FEB251F76E900372D3F /* CarRegistColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRegistColorCell.swift; sourceTree = "<group>"; };
+		1A2B7FF0251F76F500372D3F /* CarRegistColorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarRegistColorCell.xib; sourceTree = "<group>"; };
+		1A2B7FF5251F783200372D3F /* CarRegistColorTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRegistColorTV.swift; sourceTree = "<group>"; };
+		1AEC1131251DCCB1002A3092 /* BottomSheet.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BottomSheet.storyboard; sourceTree = "<group>"; };
+		1AEC1140251DD1EF002A3092 /* SignUpTermsBS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTermsBS.swift; sourceTree = "<group>"; };
+		1AEC1145251DF28A002A3092 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		1AEC1146251DF28B002A3092 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		1AEC1147251DF28B002A3092 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1AEC1148251DF28B002A3092 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		1AEC115B251DF4BF002A3092 /* NotoSansCJKkr-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Light.otf"; sourceTree = "<group>"; };
+		1AEC115C251DF4BF002A3092 /* NotoSansMonoCJKkr-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMonoCJKkr-Bold.otf"; sourceTree = "<group>"; };
+		1AEC115D251DF4C0002A3092 /* NotoSansCJKkr-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Black.otf"; sourceTree = "<group>"; };
+		1AEC115E251DF4C0002A3092 /* NotoSansCJKkr-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; };
+		1AEC115F251DF4C0002A3092 /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
+		1AEC1160251DF4C0002A3092 /* NotoSansMonoCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMonoCJKkr-Regular.otf"; sourceTree = "<group>"; };
+		1AEC1161251DF4C0002A3092 /* NotoSansCJKkr-DemiLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-DemiLight.otf"; sourceTree = "<group>"; };
+		1AEC1162251DF4C0002A3092 /* NotoSansCJKkr-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Medium.otf"; sourceTree = "<group>"; };
+		1AEC1163251DF4C0002A3092 /* NotoSansCJKkr-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Thin.otf"; sourceTree = "<group>"; };
+		1AEC1185251E002A002A3092 /* PasswordSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSettingVC.swift; sourceTree = "<group>"; };
+		1AEC1193251E0B28002A3092 /* SignUpCompleteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCompleteVC.swift; sourceTree = "<group>"; };
+		1AEC11A4251E124A002A3092 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		1AEC11A9251E148B002A3092 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		1AEC11AE251E24BC002A3092 /* AlarmPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmPageVC.swift; sourceTree = "<group>"; };
+		1AEC11B5251E24F6002A3092 /* AlarmPageTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmPageTV.swift; sourceTree = "<group>"; };
+		1AEC11BD251E2625002A3092 /* AlarmCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmCell.xib; sourceTree = "<group>"; };
+		1AEC11C2251E2637002A3092 /* AlarmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmCell.swift; sourceTree = "<group>"; };
 		1C473AEBF860A1DD3A032490 /* Pods-PlugIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlugIt.debug.xcconfig"; path = "Target Support Files/Pods-PlugIt/Pods-PlugIt.debug.xcconfig"; sourceTree = "<group>"; };
 		7A8C3F637652B93D59373102 /* Pods_PlugIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlugIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80EE5036D2AB331E9EDFCFEC /* Pods-PlugIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlugIt.release.xcconfig"; path = "Target Support Files/Pods-PlugIt/Pods-PlugIt.release.xcconfig"; sourceTree = "<group>"; };
@@ -175,6 +261,7 @@
 				1A259BEA251B398100FDEE60 /* Instance */,
 				1A259C86251B707400FDEE60 /* ExtensionCollection */,
 				1A259C62251B660B00FDEE60 /* SignUp */,
+				1AEC119F251E11CA002A3092 /* Home */,
 				1A259CB3251B8A8E00FDEE60 /* Certification */,
 				1A259C2A251B618500FDEE60 /* Font */,
 				1A259C0B251B5A7500FDEE60 /* StoryBoard */,
@@ -204,6 +291,9 @@
 				1A259B92251B2DCD00FDEE60 /* Main.storyboard */,
 				1A259C0F251B613500FDEE60 /* SignUp.storyboard */,
 				1A259CAE251B880600FDEE60 /* Certification.storyboard */,
+				1AEC1131251DCCB1002A3092 /* BottomSheet.storyboard */,
+				1AEC11A4251E124A002A3092 /* Home.storyboard */,
+				1A2B7FD9251F598600372D3F /* CarRegist.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -211,6 +301,19 @@
 		1A259C2A251B618500FDEE60 /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				1AEC115D251DF4C0002A3092 /* NotoSansCJKkr-Black.otf */,
+				1AEC115E251DF4C0002A3092 /* NotoSansCJKkr-Bold.otf */,
+				1AEC1161251DF4C0002A3092 /* NotoSansCJKkr-DemiLight.otf */,
+				1AEC115B251DF4BF002A3092 /* NotoSansCJKkr-Light.otf */,
+				1AEC1162251DF4C0002A3092 /* NotoSansCJKkr-Medium.otf */,
+				1AEC115F251DF4C0002A3092 /* NotoSansCJKkr-Regular.otf */,
+				1AEC1163251DF4C0002A3092 /* NotoSansCJKkr-Thin.otf */,
+				1AEC115C251DF4BF002A3092 /* NotoSansMonoCJKkr-Bold.otf */,
+				1AEC1160251DF4C0002A3092 /* NotoSansMonoCJKkr-Regular.otf */,
+				1AEC1148251DF28B002A3092 /* NotoSans-Bold.ttf */,
+				1AEC1147251DF28B002A3092 /* NotoSans-BoldItalic.ttf */,
+				1AEC1145251DF28A002A3092 /* NotoSans-Italic.ttf */,
+				1AEC1146251DF28B002A3092 /* NotoSans-Regular.ttf */,
 				1A259BF0251B3E3100FDEE60 /* AppleSDGothicNeoEB.ttf */,
 				1A259C38251B623700FDEE60 /* SF-Compact-Text-Black.otf */,
 				1A259C39251B623800FDEE60 /* SF-Compact-Text-Bold.otf */,
@@ -242,6 +345,9 @@
 				1A259C8C251B710A00FDEE60 /* SignUpEmailVC.swift */,
 				1A259C9C251B839900FDEE60 /* SignUpPhoneVC.swift */,
 				1A259CBD251B95BD00FDEE60 /* AuthorityVC.swift */,
+				1AEC1140251DD1EF002A3092 /* SignUpTermsBS.swift */,
+				1AEC1185251E002A002A3092 /* PasswordSettingVC.swift */,
+				1AEC1193251E0B28002A3092 /* SignUpCompleteVC.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -286,6 +392,71 @@
 				1A259CB5251B8AA500FDEE60 /* PhoneCertVC.swift */,
 			);
 			path = VC;
+			sourceTree = "<group>";
+		};
+		1AEC119F251E11CA002A3092 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1AEC11BA251E25FA002A3092 /* Cell */,
+				1AEC11B3251E24E3002A3092 /* Extension */,
+				1AEC11A0251E11DF002A3092 /* VC */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1AEC11A0251E11DF002A3092 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				1AEC11A9251E148B002A3092 /* HomeVC.swift */,
+				1AEC11AE251E24BC002A3092 /* AlarmPageVC.swift */,
+				1A2B7FDE251F769600372D3F /* CarRegistColorVC.swift */,
+				1A2B7FE3251F76A900372D3F /* CarRegistModelOptionVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		1AEC11B3251E24E3002A3092 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1AEC11B4251E24E9002A3092 /* TableView */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1AEC11B4251E24E9002A3092 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				1AEC11B5251E24F6002A3092 /* AlarmPageTV.swift */,
+				1A2B7FF5251F783200372D3F /* CarRegistColorTV.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		1AEC11BA251E25FA002A3092 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1AEC11BC251E2603002A3092 /* XibVC */,
+				1AEC11BB251E25FF002A3092 /* Xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1AEC11BB251E25FF002A3092 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				1AEC11BD251E2625002A3092 /* AlarmCell.xib */,
+				1A2B7FF0251F76F500372D3F /* CarRegistColorCell.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		1AEC11BC251E2603002A3092 /* XibVC */ = {
+			isa = PBXGroup;
+			children = (
+				1AEC11C2251E2637002A3092 /* AlarmCell.swift */,
+				1A2B7FEB251F76E900372D3F /* CarRegistColorCell.swift */,
+			);
+			path = XibVC;
 			sourceTree = "<group>";
 		};
 		249C5AD8BA39C3A0F418BC71 /* Pods */ = {
@@ -412,22 +583,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AEC1176251DF4C0002A3092 /* NotoSansCJKkr-DemiLight.otf in Resources */,
+				1AEC114C251DF28B002A3092 /* NotoSans-Regular.ttf in Resources */,
 				1A259B99251B2DCE00FDEE60 /* LaunchScreen.storyboard in Resources */,
+				1AEC116A251DF4C0002A3092 /* NotoSansCJKkr-Black.otf in Resources */,
+				1AEC11A5251E124A002A3092 /* Home.storyboard in Resources */,
 				1A259C4A251B623800FDEE60 /* SF-Compact-Text-Black.otf in Resources */,
+				1AEC1152251DF28B002A3092 /* NotoSans-Bold.ttf in Resources */,
 				1A259C50251B623800FDEE60 /* SF-Compact-Text-Medium.otf in Resources */,
+				1AEC116D251DF4C0002A3092 /* NotoSansCJKkr-Bold.otf in Resources */,
 				1A259CAF251B880600FDEE60 /* Certification.storyboard in Resources */,
 				1A259C44251B623800FDEE60 /* SF-Compact-Text-Heavy.otf in Resources */,
+				1AEC11BE251E2625002A3092 /* AlarmCell.xib in Resources */,
+				1AEC1132251DCCB1002A3092 /* BottomSheet.storyboard in Resources */,
 				1A259C59251B623800FDEE60 /* SF-Compact-Text-LightItalic.otf in Resources */,
 				1A259B96251B2DCE00FDEE60 /* Assets.xcassets in Resources */,
 				1A259C3E251B623800FDEE60 /* SF-Compact-Text-Light.otf in Resources */,
+				1AEC1167251DF4C0002A3092 /* NotoSansMonoCJKkr-Bold.otf in Resources */,
+				1AEC117C251DF4C0002A3092 /* NotoSansCJKkr-Thin.otf in Resources */,
+				1A2B7FF1251F76F500372D3F /* CarRegistColorCell.xib in Resources */,
+				1AEC1149251DF28B002A3092 /* NotoSans-Italic.ttf in Resources */,
 				1A259C47251B623800FDEE60 /* SF-Compact-Text-Regular.otf in Resources */,
+				1AEC114F251DF28B002A3092 /* NotoSans-BoldItalic.ttf in Resources */,
 				1A259BF1251B3E4100FDEE60 /* AppleSDGothicNeoEB.ttf in Resources */,
+				1AEC1179251DF4C0002A3092 /* NotoSansCJKkr-Medium.otf in Resources */,
 				1A259C53251B623800FDEE60 /* SF-Compact-Text-MediumItalic.otf in Resources */,
+				1AEC1170251DF4C0002A3092 /* NotoSansCJKkr-Regular.otf in Resources */,
 				1A259B94251B2DCD00FDEE60 /* Main.storyboard in Resources */,
 				1A259C4D251B623800FDEE60 /* SF-Compact-Text-Bold.otf in Resources */,
 				1A259C41251B623800FDEE60 /* SF-Compact-Text-UltralightItalic.otf in Resources */,
 				1A259C56251B623800FDEE60 /* SF-Compact-Text-RegularItalic.otf in Resources */,
+				1A2B7FDA251F598600372D3F /* CarRegist.storyboard in Resources */,
+				1AEC1173251DF4C0002A3092 /* NotoSansMonoCJKkr-Regular.otf in Resources */,
 				1A259C10251B613500FDEE60 /* SignUp.storyboard in Resources */,
+				1AEC1164251DF4C0002A3092 /* NotoSansCJKkr-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,16 +624,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AEC116E251DF4C0002A3092 /* NotoSansCJKkr-Bold.otf in Resources */,
 				1A259C48251B623800FDEE60 /* SF-Compact-Text-Regular.otf in Resources */,
 				1A259C5A251B623800FDEE60 /* SF-Compact-Text-LightItalic.otf in Resources */,
+				1AEC1174251DF4C0002A3092 /* NotoSansMonoCJKkr-Regular.otf in Resources */,
+				1AEC116B251DF4C0002A3092 /* NotoSansCJKkr-Black.otf in Resources */,
+				1AEC114D251DF28B002A3092 /* NotoSans-Regular.ttf in Resources */,
+				1AEC1171251DF4C0002A3092 /* NotoSansCJKkr-Regular.otf in Resources */,
+				1AEC1153251DF28B002A3092 /* NotoSans-Bold.ttf in Resources */,
+				1AEC1168251DF4C0002A3092 /* NotoSansMonoCJKkr-Bold.otf in Resources */,
 				1A259C4B251B623800FDEE60 /* SF-Compact-Text-Black.otf in Resources */,
+				1AEC114A251DF28B002A3092 /* NotoSans-Italic.ttf in Resources */,
+				1AEC117A251DF4C0002A3092 /* NotoSansCJKkr-Medium.otf in Resources */,
 				1A259C3F251B623800FDEE60 /* SF-Compact-Text-Light.otf in Resources */,
 				1A259C45251B623800FDEE60 /* SF-Compact-Text-Heavy.otf in Resources */,
-				1A259BF5251B3E8F00FDEE60 /* AppleSDGothicNeoEB.ttf in Resources */,
 				1A259C54251B623800FDEE60 /* SF-Compact-Text-MediumItalic.otf in Resources */,
+				1AEC117D251DF4C0002A3092 /* NotoSansCJKkr-Thin.otf in Resources */,
 				1A259C57251B623800FDEE60 /* SF-Compact-Text-RegularItalic.otf in Resources */,
 				1A259C42251B623800FDEE60 /* SF-Compact-Text-UltralightItalic.otf in Resources */,
+				1AEC1177251DF4C0002A3092 /* NotoSansCJKkr-DemiLight.otf in Resources */,
+				1AEC1150251DF28B002A3092 /* NotoSans-BoldItalic.ttf in Resources */,
 				1A259C51251B623800FDEE60 /* SF-Compact-Text-Medium.otf in Resources */,
+				1AEC1165251DF4C0002A3092 /* NotoSansCJKkr-Light.otf in Resources */,
+				1AEC112C251DBF39002A3092 /* AppleSDGothicNeoEB.ttf in Resources */,
 				1A259C4E251B623800FDEE60 /* SF-Compact-Text-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,15 +655,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AEC116F251DF4C0002A3092 /* NotoSansCJKkr-Bold.otf in Resources */,
 				1A259C49251B623800FDEE60 /* SF-Compact-Text-Regular.otf in Resources */,
 				1A259C5B251B623800FDEE60 /* SF-Compact-Text-LightItalic.otf in Resources */,
+				1AEC1175251DF4C0002A3092 /* NotoSansMonoCJKkr-Regular.otf in Resources */,
+				1AEC116C251DF4C0002A3092 /* NotoSansCJKkr-Black.otf in Resources */,
+				1AEC114E251DF28B002A3092 /* NotoSans-Regular.ttf in Resources */,
+				1AEC1172251DF4C0002A3092 /* NotoSansCJKkr-Regular.otf in Resources */,
+				1AEC1154251DF28B002A3092 /* NotoSans-Bold.ttf in Resources */,
+				1AEC1169251DF4C0002A3092 /* NotoSansMonoCJKkr-Bold.otf in Resources */,
 				1A259C4C251B623800FDEE60 /* SF-Compact-Text-Black.otf in Resources */,
+				1AEC114B251DF28B002A3092 /* NotoSans-Italic.ttf in Resources */,
+				1AEC117B251DF4C0002A3092 /* NotoSansCJKkr-Medium.otf in Resources */,
 				1A259C40251B623800FDEE60 /* SF-Compact-Text-Light.otf in Resources */,
 				1A259C46251B623800FDEE60 /* SF-Compact-Text-Heavy.otf in Resources */,
 				1A259BF9251B3E9000FDEE60 /* AppleSDGothicNeoEB.ttf in Resources */,
+				1AEC117E251DF4C0002A3092 /* NotoSansCJKkr-Thin.otf in Resources */,
 				1A259C55251B623800FDEE60 /* SF-Compact-Text-MediumItalic.otf in Resources */,
 				1A259C58251B623800FDEE60 /* SF-Compact-Text-RegularItalic.otf in Resources */,
+				1AEC1178251DF4C0002A3092 /* NotoSansCJKkr-DemiLight.otf in Resources */,
+				1AEC1151251DF28B002A3092 /* NotoSans-BoldItalic.ttf in Resources */,
 				1A259C43251B623800FDEE60 /* SF-Compact-Text-UltralightItalic.otf in Resources */,
+				1AEC1166251DF4C0002A3092 /* NotoSansCJKkr-Light.otf in Resources */,
 				1A259C52251B623800FDEE60 /* SF-Compact-Text-Medium.otf in Resources */,
 				1A259C4F251B623800FDEE60 /* SF-Compact-Text-Bold.otf in Resources */,
 			);
@@ -517,19 +732,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A259CA2251B83A300FDEE60 /* SignUpPhoneTF.swift in Sources */,
+				1AEC1186251E002A002A3092 /* PasswordSettingVC.swift in Sources */,
 				1A259C92251B712400FDEE60 /* SignUpEmailTF.swift in Sources */,
 				1A259CA7251B849E00FDEE60 /* Common.swift in Sources */,
 				1A259B91251B2DCD00FDEE60 /* ViewController.swift in Sources */,
+				1A2B7FDF251F769600372D3F /* CarRegistColorVC.swift in Sources */,
+				1AEC1141251DD1EF002A3092 /* SignUpTermsBS.swift in Sources */,
 				1A259C82251B6A0C00FDEE60 /* SignUpNameTF.swift in Sources */,
 				1A259C8D251B710A00FDEE60 /* SignUpEmailVC.swift in Sources */,
 				1A259B8D251B2DCD00FDEE60 /* AppDelegate.swift in Sources */,
+				1AEC1194251E0B28002A3092 /* SignUpCompleteVC.swift in Sources */,
+				1AEC11B6251E24F6002A3092 /* AlarmPageTV.swift in Sources */,
+				1AEC11C3251E2637002A3092 /* AlarmCell.swift in Sources */,
 				1A259B8F251B2DCD00FDEE60 /* SceneDelegate.swift in Sources */,
+				1AEC11AF251E24BC002A3092 /* AlarmPageVC.swift in Sources */,
+				1A2B7FE4251F76A900372D3F /* CarRegistModelOptionVC.swift in Sources */,
 				1A259C9D251B839900FDEE60 /* SignUpPhoneVC.swift in Sources */,
+				1A2B7FEC251F76E900372D3F /* CarRegistColorCell.swift in Sources */,
 				1A259BEC251B399300FDEE60 /* StoryBoardInstance.swift in Sources */,
 				1A259C88251B708B00FDEE60 /* ExtensionCollection.swift in Sources */,
 				1A259C67251B663500FDEE60 /* SignUpNameVC.swift in Sources */,
 				1A259BE3251B393A00FDEE60 /* StartVC.swift in Sources */,
 				1A259CBE251B95BD00FDEE60 /* AuthorityVC.swift in Sources */,
+				1AEC11AA251E148B002A3092 /* HomeVC.swift in Sources */,
+				1A2B7FF6251F783200372D3F /* CarRegistColorTV.swift in Sources */,
 				1A259CB6251B8AA500FDEE60 /* PhoneCertVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,6 +764,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AEC1187251E002A002A3092 /* PasswordSettingVC.swift in Sources */,
 				1A259C68251B663500FDEE60 /* SignUpNameVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -546,6 +773,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AEC1188251E002A002A3092 /* PasswordSettingVC.swift in Sources */,
 				1A259C69251B663500FDEE60 /* SignUpNameVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

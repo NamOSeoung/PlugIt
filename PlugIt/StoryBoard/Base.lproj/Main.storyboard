@@ -18,32 +18,54 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController modalTransitionStyle="flipHorizontal" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="PlugIt" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="bED-3g-OUT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnKakao" translatesAutoresizingMaskIntoConstraints="NO" id="Fjr-95-6Ar">
-                                <rect key="frame" x="112.66666666666669" y="331" width="150" height="150"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FGY-ja-m1Q">
+                                <rect key="frame" x="112.66666666666669" y="325.66666666666669" width="150" height="161"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plugItLogoSplash" translatesAutoresizingMaskIntoConstraints="NO" id="SGm-AE-UUa">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="anI-et-dZQ"/>
+                                            <constraint firstAttribute="width" constant="150" id="blF-Dg-JC7"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plugitLogoText" translatesAutoresizingMaskIntoConstraints="NO" id="L2R-8r-byA">
+                                        <rect key="frame" x="42.333333333333329" y="139" width="65" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="22" id="H6j-p1-kad"/>
+                                            <constraint firstAttribute="width" constant="65" id="lzd-R8-cqA"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="Ho4-RG-WlF"/>
-                                    <constraint firstAttribute="height" constant="150" id="luC-fQ-Nwb"/>
+                                    <constraint firstItem="SGm-AE-UUa" firstAttribute="top" secondItem="FGY-ja-m1Q" secondAttribute="top" id="4mi-hg-5tx"/>
+                                    <constraint firstAttribute="width" constant="150" id="656-sh-Jjc"/>
+                                    <constraint firstAttribute="bottom" secondItem="L2R-8r-byA" secondAttribute="bottom" id="BPP-rG-79V"/>
+                                    <constraint firstItem="SGm-AE-UUa" firstAttribute="leading" secondItem="FGY-ja-m1Q" secondAttribute="leading" id="LBL-YW-H0e"/>
+                                    <constraint firstItem="L2R-8r-byA" firstAttribute="centerX" secondItem="FGY-ja-m1Q" secondAttribute="centerX" id="TQB-RA-4wD"/>
+                                    <constraint firstAttribute="trailing" secondItem="SGm-AE-UUa" secondAttribute="trailing" id="WrZ-MK-VDv"/>
+                                    <constraint firstAttribute="height" constant="161" id="vei-WC-AYq"/>
                                 </constraints>
-                            </imageView>
+                            </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="UoK-vC-oII"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Fjr-95-6Ar" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tqx-AO-nak"/>
-                            <constraint firstItem="Fjr-95-6Ar" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wTo-ef-RRI"/>
+                            <constraint firstItem="FGY-ja-m1Q" firstAttribute="centerY" secondItem="bED-3g-OUT" secondAttribute="centerY" id="1tu-w7-tRu"/>
+                            <constraint firstItem="FGY-ja-m1Q" firstAttribute="centerX" secondItem="bED-3g-OUT" secondAttribute="centerX" id="5ig-p3-gu9"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="splashImage" destination="Fjr-95-6Ar" id="JwF-rc-fMO"/>
+                        <outlet property="splashImage" destination="SGm-AE-UUa" id="UD8-Kq-oPu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="141" y="94"/>
+            <point key="canvasLocation" x="-78" y="93"/>
         </scene>
         <!--StartVC-->
         <scene sceneID="rJy-1F-1e3">
@@ -65,7 +87,7 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CmM-Ia-nuE">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="734"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnKakao" translatesAutoresizingMaskIntoConstraints="NO" id="FXH-vv-blH">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plugitLogoSmall" translatesAutoresizingMaskIntoConstraints="NO" id="FXH-vv-blH">
                                                                 <rect key="frame" x="30" y="50" width="35" height="35"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="35" id="iBF-3h-bRc"/>
@@ -78,35 +100,26 @@
                                                                     <constraint firstAttribute="height" constant="66" id="aUN-El-Alm"/>
                                                                 </constraints>
                                                                 <attributedString key="attributedText">
-                                                                    <fragment content="전기자동차 충전">
-                                                                        <attributes>
-                                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                                            <font key="NSFont" size="25" name="AppleSDGothicNeo-SemiBold"/>
-                                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
-                                                                        </attributes>
-                                                                    </fragment>
                                                                     <fragment>
-                                                                        <string key="content" base64-UTF8="YES">
-Cg
+                                                                        <string key="content">전기자동차 충전
 </string>
                                                                         <attributes>
-                                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                                            <font key="NSFont" size="16" name="AppleSDGothicNeo-SemiBold"/>
-                                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
+                                                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <font key="NSFont" size="25" name="AppleSDGothicNeo-Bold"/>
+                                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                         </attributes>
                                                                     </fragment>
                                                                     <fragment content="플러그잇">
                                                                         <attributes>
-                                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                                            <font key="NSFont" size="25" name="AppleSDGothicNeo-Bold"/>
-                                                                            <font key="NSOriginalFont" size="16" name="AppleSDGothicNeo-Bold"/>
+                                                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <font key="NSFont" size="25" name="AppleSDGothicNeoEB00"/>
                                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                         </attributes>
                                                                     </fragment>
                                                                     <fragment content="에서 간편하게">
                                                                         <attributes>
-                                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                                            <font key="NSFont" size="25" name="AppleSDGothicNeo-SemiBold"/>
+                                                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <font key="NSFont" size="25" name="AppleSDGothicNeo-Bold"/>
                                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                         </attributes>
                                                                     </fragment>
@@ -163,7 +176,7 @@ Cg
                                                                 <color key="textColor" red="0.46666666666666667" green="0.46666666666666667" blue="0.46666666666666667" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnKakao" translatesAutoresizingMaskIntoConstraints="NO" id="GsX-RJ-Bat">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rightTriangle" translatesAutoresizingMaskIntoConstraints="NO" id="GsX-RJ-Bat">
                                                                 <rect key="frame" x="32" y="272" width="7" height="9"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="7" id="25u-4X-U9n"/>
@@ -173,6 +186,7 @@ Cg
                                                         </subviews>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
+                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="98b-7H-Gcz" secondAttribute="trailing" constant="20" symbolic="YES" id="EN5-4p-hCx"/>
                                                             <constraint firstItem="FXH-vv-blH" firstAttribute="leading" secondItem="CmM-Ia-nuE" secondAttribute="leading" constant="30" id="HwW-qZ-BMa"/>
                                                             <constraint firstItem="98b-7H-Gcz" firstAttribute="leading" secondItem="GsX-RJ-Bat" secondAttribute="trailing" constant="6" id="YZN-Zo-2Mm"/>
                                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="BUq-Sg-0MR" secondAttribute="trailing" constant="20" symbolic="YES" id="gbB-FV-nRZ"/>
@@ -189,7 +203,7 @@ Cg
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KVC-th-EHe">
                                                         <rect key="frame" x="375" y="0.0" width="375" height="734"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnKakao" translatesAutoresizingMaskIntoConstraints="NO" id="Z8F-B5-nYd">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plugitLogoSmall" translatesAutoresizingMaskIntoConstraints="NO" id="Z8F-B5-nYd">
                                                                 <rect key="frame" x="30" y="50" width="35" height="35"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="35" id="Ekq-En-wOO"/>
@@ -197,15 +211,29 @@ Cg
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlT-8l-ovR">
-                                                                <rect key="frame" x="30.000000000000014" y="105" width="201.33333333333337" height="66"/>
+                                                                <rect key="frame" x="30" y="105" width="266.33333333333331" height="68"/>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="height" constant="66" id="FwA-Iy-u2z"/>
+                                                                    <constraint firstAttribute="height" constant="68" id="FwA-Iy-u2z"/>
                                                                 </constraints>
                                                                 <attributedString key="attributedText">
-                                                                    <fragment content="기다리지 말고 간편하게 호출하세요">
+                                                                    <fragment content="기다리지말고 ">
                                                                         <attributes>
                                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                                            <font key="NSFont" size="25" name="AppleSDGothicNeo-SemiBold"/>
+                                                                            <font key="NSFont" size="25" name="AppleSDGothicNeo-Bold"/>
+                                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                    <fragment content="플러그잇">
+                                                                        <attributes>
+                                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                            <font key="NSFont" size="25" name="AppleSDGothicNeoEB00"/>
+                                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                    <fragment content="으로 간편하게 호출하세요.">
+                                                                        <attributes>
+                                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                            <font key="NSFont" size="25" name="AppleSDGothicNeo-Bold"/>
                                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
                                                                         </attributes>
                                                                     </fragment>
@@ -234,7 +262,9 @@ Cg
                                                             <constraint firstItem="nlT-8l-ovR" firstAttribute="top" secondItem="Z8F-B5-nYd" secondAttribute="bottom" constant="20" id="Amt-AH-vEg"/>
                                                             <constraint firstItem="H1R-1m-ZT9" firstAttribute="leading" secondItem="KVC-th-EHe" secondAttribute="leading" constant="30" id="Aup-pI-iry"/>
                                                             <constraint firstItem="Z8F-B5-nYd" firstAttribute="top" secondItem="KVC-th-EHe" secondAttribute="top" constant="50" id="Hfd-GH-6F6"/>
-                                                            <constraint firstItem="H1R-1m-ZT9" firstAttribute="top" secondItem="nlT-8l-ovR" secondAttribute="bottom" constant="35" id="KcO-Fq-qyw"/>
+                                                            <constraint firstItem="H1R-1m-ZT9" firstAttribute="top" secondItem="nlT-8l-ovR" secondAttribute="bottom" constant="33" id="KcO-Fq-qyw"/>
+                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nlT-8l-ovR" secondAttribute="trailing" constant="20" symbolic="YES" id="Mn3-N4-DFt"/>
+                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="H1R-1m-ZT9" secondAttribute="trailing" constant="20" symbolic="YES" id="QiY-kd-eMo"/>
                                                             <constraint firstItem="Z8F-B5-nYd" firstAttribute="leading" secondItem="KVC-th-EHe" secondAttribute="leading" constant="30" id="cSu-PY-F4L"/>
                                                             <constraint firstItem="nlT-8l-ovR" firstAttribute="leading" secondItem="KVC-th-EHe" secondAttribute="leading" constant="30" id="ydi-GU-Bvu"/>
                                                         </constraints>
@@ -242,7 +272,7 @@ Cg
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SsK-Y8-7ch">
                                                         <rect key="frame" x="750" y="0.0" width="375" height="734"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnKakao" translatesAutoresizingMaskIntoConstraints="NO" id="6AH-Xd-7fZ">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plugitLogoSmall" translatesAutoresizingMaskIntoConstraints="NO" id="6AH-Xd-7fZ">
                                                                 <rect key="frame" x="30" y="50" width="35" height="35"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="35" id="IeR-FS-iy5"/>
@@ -250,15 +280,29 @@ Cg
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndE-TR-fzO">
-                                                                <rect key="frame" x="30" y="105" width="271.33333333333331" height="66"/>
+                                                                <rect key="frame" x="30" y="105" width="257.66666666666669" height="68"/>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="height" constant="66" id="AkK-PG-tUE"/>
+                                                                    <constraint firstAttribute="height" constant="68" id="AkK-PG-tUE"/>
                                                                 </constraints>
                                                                 <attributedString key="attributedText">
-                                                                    <fragment content="체감충전 0시간 충전에 대한 번거로움 해결 !">
+                                                                    <fragment content="충전이 주유보다 편한 세상 ">
                                                                         <attributes>
                                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                                            <font key="NSFont" size="25" name="AppleSDGothicNeo-SemiBold"/>
+                                                                            <font key="NSFont" size="25" name="AppleSDGothicNeo-Bold"/>
+                                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                    <fragment content="플러그잇">
+                                                                        <attributes>
+                                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                            <font key="NSFont" size="25" name="AppleSDGothicNeoEB00"/>
+                                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                    <fragment content="이 만들어갑니다">
+                                                                        <attributes>
+                                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                            <font key="NSFont" size="25" name="AppleSDGothicNeo-Bold"/>
                                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
                                                                         </attributes>
                                                                     </fragment>
@@ -287,15 +331,17 @@ Cg
                                                             <constraint firstItem="ndE-TR-fzO" firstAttribute="leading" secondItem="SsK-Y8-7ch" secondAttribute="leading" constant="30" id="3gA-9q-C8j"/>
                                                             <constraint firstItem="QNl-46-EJy" firstAttribute="leading" secondItem="SsK-Y8-7ch" secondAttribute="leading" constant="30" id="GpG-CA-olz"/>
                                                             <constraint firstItem="6AH-Xd-7fZ" firstAttribute="leading" secondItem="SsK-Y8-7ch" secondAttribute="leading" constant="30" id="JBZ-pV-vhq"/>
+                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ndE-TR-fzO" secondAttribute="trailing" constant="20" symbolic="YES" id="PZm-QG-rGD"/>
+                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QNl-46-EJy" secondAttribute="trailing" constant="20" symbolic="YES" id="eJo-hx-lxJ"/>
                                                             <constraint firstItem="6AH-Xd-7fZ" firstAttribute="top" secondItem="SsK-Y8-7ch" secondAttribute="top" constant="50" id="i6F-P4-6sy"/>
                                                             <constraint firstItem="ndE-TR-fzO" firstAttribute="top" secondItem="6AH-Xd-7fZ" secondAttribute="bottom" constant="20" id="iRk-gc-HeZ"/>
-                                                            <constraint firstItem="QNl-46-EJy" firstAttribute="top" secondItem="ndE-TR-fzO" secondAttribute="bottom" constant="35" id="qLA-TS-WeX"/>
+                                                            <constraint firstItem="QNl-46-EJy" firstAttribute="top" secondItem="ndE-TR-fzO" secondAttribute="bottom" constant="33" id="qLA-TS-WeX"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hhg-Pt-mmK">
                                                         <rect key="frame" x="1125" y="0.0" width="375" height="734"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnKakao" translatesAutoresizingMaskIntoConstraints="NO" id="u1D-Mz-UhY">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plugitLogoSmall" translatesAutoresizingMaskIntoConstraints="NO" id="u1D-Mz-UhY">
                                                                 <rect key="frame" x="30" y="50" width="35" height="35"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="35" id="1yw-1H-TsV"/>
@@ -303,15 +349,29 @@ Cg
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Fg-dm-34a">
-                                                                <rect key="frame" x="30" y="105" width="266.33333333333331" height="66"/>
+                                                                <rect key="frame" x="30" y="105" width="266.33333333333331" height="68"/>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="height" constant="66" id="fUt-nn-fal"/>
+                                                                    <constraint firstAttribute="height" constant="68" id="fUt-nn-fal"/>
                                                                 </constraints>
                                                                 <attributedString key="attributedText">
-                                                                    <fragment content="이젠 마음놓고 출발하세요 프러그잇이 충전해드립니다">
+                                                                    <fragment content="이젠 마음놓고 출발하세요 ">
                                                                         <attributes>
                                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                                            <font key="NSFont" size="25" name="AppleSDGothicNeo-SemiBold"/>
+                                                                            <font key="NSFont" size="25" name="AppleSDGothicNeo-Bold"/>
+                                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                    <fragment content="플러그잇">
+                                                                        <attributes>
+                                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                            <font key="NSFont" size="25" name="AppleSDGothicNeoEB00"/>
+                                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                    <fragment content="이 충전해드립니다">
+                                                                        <attributes>
+                                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                            <font key="NSFont" size="25" name="AppleSDGothicNeo-Bold"/>
                                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
                                                                         </attributes>
                                                                     </fragment>
@@ -346,8 +406,10 @@ Cg
                                                         </subviews>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
+                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="JKV-tL-zkE" secondAttribute="trailing" constant="20" symbolic="YES" id="C0q-96-ecp"/>
                                                             <constraint firstItem="u1D-Mz-UhY" firstAttribute="top" secondItem="Hhg-Pt-mmK" secondAttribute="top" constant="50" id="GS1-Zp-xgT"/>
-                                                            <constraint firstItem="JKV-tL-zkE" firstAttribute="top" secondItem="6Fg-dm-34a" secondAttribute="bottom" constant="35" id="f8f-ao-MWM"/>
+                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6Fg-dm-34a" secondAttribute="trailing" constant="20" symbolic="YES" id="cJP-gJ-JtT"/>
+                                                            <constraint firstItem="JKV-tL-zkE" firstAttribute="top" secondItem="6Fg-dm-34a" secondAttribute="bottom" constant="33" id="f8f-ao-MWM"/>
                                                             <constraint firstItem="6Fg-dm-34a" firstAttribute="leading" secondItem="Hhg-Pt-mmK" secondAttribute="leading" constant="30" id="uS6-gL-eTl"/>
                                                             <constraint firstItem="6Fg-dm-34a" firstAttribute="top" secondItem="u1D-Mz-UhY" secondAttribute="bottom" constant="20" id="viS-fx-sNx"/>
                                                             <constraint firstItem="JKV-tL-zkE" firstAttribute="leading" secondItem="Hhg-Pt-mmK" secondAttribute="leading" constant="30" id="xUY-uK-a8X"/>
@@ -410,14 +472,16 @@ Cg
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hiE-hb-Xhw">
                                         <rect key="frame" x="0.0" y="0.0" width="303" height="57"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                        <state key="normal" title="Button"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="18"/>
+                                        <state key="normal" title="모바일 번호로 시작하기" backgroundImage="brandColorButton">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="nextStepBtn:" destination="SoX-ek-Cvs" eventType="touchUpInside" id="4p3-iz-A1P"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="hiE-hb-Xhw" firstAttribute="leading" secondItem="Sh8-ZD-UsZ" secondAttribute="leading" id="030-Wx-j3y"/>
                                     <constraint firstAttribute="trailing" secondItem="hiE-hb-Xhw" secondAttribute="trailing" id="3gO-MY-dIb"/>
@@ -454,15 +518,16 @@ Cg
         </scene>
     </scenes>
     <resources>
-        <image name="btnKakao" width="40" height="40"/>
+        <image name="brandColorButton" width="325" height="57"/>
+        <image name="plugItLogoSplash" width="150" height="151"/>
+        <image name="plugitLogoSmall" width="35" height="36"/>
+        <image name="plugitLogoText" width="65" height="22"/>
+        <image name="rightTriangle" width="7" height="9"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

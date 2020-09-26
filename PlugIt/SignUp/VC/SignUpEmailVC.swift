@@ -38,6 +38,7 @@ class SignUpEmailVC: UIViewController {
         emailWrap.layer.cornerRadius = 15.0
         nextStepBtn.layer.cornerRadius = 15.0
         delBtn.isHidden = true
+        self.emailTF.becomeFirstResponder()
     }
     
     override func viewWillAppear(_ animated: Bool) {

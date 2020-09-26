@@ -3,4 +3,131 @@
    uuid = "B17DA38F-4F8D-4B73-98CB-ECFF32EAF37D"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD0E8752-2EC7-4285-BBCB-923D7AA7EF2B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlugIt/SignUp/VC/SignUpCompleteVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "DD0E8752-2EC7-4285-BBCB-923D7AA7EF2B - 65a343d8b123fa3c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlugIt.SignUpCompleteVC.__deallocating_deinit"
+                  moduleName = "PlugIt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nam-oseung/dev/iOS/PlugIt/PlugIt/SignUp/VC/SignUpCompleteVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "DD0E8752-2EC7-4285-BBCB-923D7AA7EF2B - 65f18a49a7b4969d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlugIt.SignUpCompleteVC.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; PlugIt.SignUpCompleteVC"
+                  moduleName = "PlugIt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nam-oseung/dev/iOS/PlugIt/PlugIt/SignUp/VC/SignUpCompleteVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "DD0E8752-2EC7-4285-BBCB-923D7AA7EF2B - 8ed81451615a210f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlugIt.SignUpCompleteVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; PlugIt.SignUpCompleteVC"
+                  moduleName = "PlugIt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nam-oseung/dev/iOS/PlugIt/PlugIt/SignUp/VC/SignUpCompleteVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "DD0E8752-2EC7-4285-BBCB-923D7AA7EF2B - 1c0b72fa8a788e56"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlugIt.SignUpCompleteVC.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;PlugIt.SignUpCompleteVC&gt;"
+                  moduleName = "PlugIt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nam-oseung/dev/iOS/PlugIt/PlugIt/SignUp/VC/SignUpCompleteVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "DD0E8752-2EC7-4285-BBCB-923D7AA7EF2B - abbd4e559fe36f99"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlugIt.SignUpCompleteVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;PlugIt.SignUpCompleteVC&gt;"
+                  moduleName = "PlugIt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nam-oseung/dev/iOS/PlugIt/PlugIt/SignUp/VC/SignUpCompleteVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5671FC12-B58A-4F6A-82D7-3CDD71BADA1B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlugIt/Home/VC/HomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "HomeVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "676A2EC8-1A37-4FE9-ADD0-24C630BE9C85"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

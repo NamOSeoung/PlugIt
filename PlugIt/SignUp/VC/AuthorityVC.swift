@@ -27,9 +27,28 @@ class AuthorityVC: UIViewController {
         alarmWrap.layer.cornerRadius = 15.0
         locationWrap.layer.cornerRadius = 15.0
         nextStepBtn.layer.cornerRadius = 15.0
+        
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        let signUpTermsBS = bottomSheetStoryBoard.instantiateViewController(withIdentifier: "SignUpTermsBS") as! SignUpTermsBS
+
+        signUpTermsBS.height = 387.0
+        signUpTermsBS.topCornerRadius = 20.0
+        signUpTermsBS.presentDuration = 0.325
+        signUpTermsBS.dismissDuration = 0.325
+        present(signUpTermsBS, animated: true, completion: nil)
     }
     
     @IBAction func nextStepBtn(_ sender: Any) {
+        let signUpTermsBS = bottomSheetStoryBoard.instantiateViewController(withIdentifier: "SignUpTermsBS") as! SignUpTermsBS
+
+        signUpTermsBS.height = 387.0
+        signUpTermsBS.topCornerRadius = 20.0
+        signUpTermsBS.presentDuration = 0.325
+        signUpTermsBS.dismissDuration = 0.325
+        present(signUpTermsBS, animated: true, completion: nil)
     }
     
 }

@@ -16,6 +16,8 @@ class SignUpPhoneVC: UIViewController {
     @IBOutlet weak var phoneWrap: UIView!
     @IBOutlet weak var nameWrap: UIView!
     @IBOutlet weak var nextStepBtn: UIButton!
+    
+    @IBOutlet weak var nextStepHeightBtn: UIButton!
     @IBOutlet weak var delBtn: UIButton!
     @IBOutlet weak var nameGL: UILabel!
     @IBOutlet weak var nextBtnWrap: UIView!
@@ -45,6 +47,7 @@ class SignUpPhoneVC: UIViewController {
         phoneWrap.layer.cornerRadius = 15.0
         nextStepBtn.layer.cornerRadius = 15.0
         delBtn.isHidden = true
+        self.phoneTF.becomeFirstResponder()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -125,6 +128,17 @@ class SignUpPhoneVC: UIViewController {
             phoneGL.isHidden = true
             delBtn.constraints[1].constant = 23.0
             delBtn.isHidden = false
+            if self.phoneTF.text!.count == 11 {
+                nextStepBtn.backgroundColor = UIColor(red: 0/255, green: 122/255, blue: 255/255, alpha: 1)
+                nextStepHeightBtn.backgroundColor = UIColor(red: 0/255, green: 122/255, blue: 255/255, alpha: 1)
+                nextStepBtn.setTitleColor(.white, for: .normal)
+                nextStepHeightBtn.setTitleColor(.white, for: .normal)
+            }else {
+                nextStepBtn.backgroundColor = UIColor(red: 235/255, green: 235/255, blue: 235/255, alpha: 1)
+                nextStepHeightBtn.backgroundColor = UIColor(red: 235/255, green: 235/255, blue: 235/255, alpha: 1)
+                nextStepBtn.setTitleColor(UIColor(red: 119/255, green: 119/255, blue: 119/255, alpha: 1), for: .normal)
+                nextStepHeightBtn.setTitleColor(UIColor(red: 119/255, green: 119/255, blue: 119/255, alpha: 1), for: .normal)
+            }
         }else {
             phoneWrap.animateBorderWidth(boderWidth: 0.0, duration: 0.125, boderColor: UIColor(red: 0/255, green: 122/255, blue: 255/255, alpha: 1).cgColor)
             phoneWrap.layer.borderWidth = 0.0

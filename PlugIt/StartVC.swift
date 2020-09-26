@@ -24,8 +24,11 @@ class StartVC: UIViewController {
     }
     @IBAction func nextStepBtn(_ sender: Any) {
         
-        let signUpNameVC = signUpStoryBoard.instantiateViewController(withIdentifier: "SignUpNameVC") as! SignUpNameVC
-        self.present(signUpNameVC, animated: true, completion: nil)
+//        let signUpNameVC = signUpStoryBoard.instantiateViewController(withIdentifier: "SignUpNameVC") as! SignUpNameVC
+//        self.present(signUpNameVC, animated: true, completion: nil)
+        
+        let carRegistColorVC = carRegistStoryBoard.instantiateViewController(withIdentifier: "CarRegistColorVC") as! CarRegistColorVC
+        self.present(carRegistColorVC, animated: true, completion: nil)
     }
     
     func scrollToPage(page: Int, animated: Bool) {

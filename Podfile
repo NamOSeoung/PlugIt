@@ -8,6 +8,7 @@ target 'PlugIt' do
   # Pods for PlugIt
   pod 'Alamofire', '~> 5.2'
   pod 'SwiftyTimer'
+  pod 'BottomPopup'
 
 
 end

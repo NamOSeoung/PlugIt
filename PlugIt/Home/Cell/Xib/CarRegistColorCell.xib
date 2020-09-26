@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Compact-Text-Bold.otf">
+            <string>SFCompactText-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="56" id="scz-Qh-GTM" customClass="CarRegistColorCell" customModule="PlugIt" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="scz-Qh-GTM" id="fWi-y7-Das">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x0D-qs-7z6">
+                        <rect key="frame" x="10" y="0.0" width="355" height="46"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V5g-GH-aH1">
+                                <rect key="frame" x="10" y="10" width="80" height="26"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="NFS-AB-XlP"/>
+                                    <constraint firstAttribute="width" constant="80" id="NcH-xp-Kqo"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Black" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKZ-eS-gg3">
+                                <rect key="frame" x="105" y="12.5" width="240" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="wA1-VP-uma"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFCompactText-Bold" family="SF Compact Text" pointSize="18"/>
+                                <color key="textColor" red="0.14117647058823529" green="0.14117647058823529" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hKZ-eS-gg3" firstAttribute="leading" secondItem="V5g-GH-aH1" secondAttribute="trailing" constant="15" id="2H2-6N-CxC"/>
+                            <constraint firstItem="hKZ-eS-gg3" firstAttribute="centerY" secondItem="x0D-qs-7z6" secondAttribute="centerY" id="FHm-I2-l2x"/>
+                            <constraint firstItem="V5g-GH-aH1" firstAttribute="leading" secondItem="x0D-qs-7z6" secondAttribute="leading" constant="10" id="N6S-aQ-BT2"/>
+                            <constraint firstAttribute="height" constant="46" id="Sla-F3-d9d"/>
+                            <constraint firstAttribute="trailing" secondItem="hKZ-eS-gg3" secondAttribute="trailing" constant="10" id="WRT-kL-8gI"/>
+                            <constraint firstItem="V5g-GH-aH1" firstAttribute="centerY" secondItem="x0D-qs-7z6" secondAttribute="centerY" id="vhe-Xo-0nS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="x0D-qs-7z6" secondAttribute="bottom" constant="10" id="3yC-DV-4AI"/>
+                    <constraint firstItem="x0D-qs-7z6" firstAttribute="leading" secondItem="fWi-y7-Das" secondAttribute="leading" constant="10" id="A8k-wz-ngy"/>
+                    <constraint firstAttribute="trailing" secondItem="x0D-qs-7z6" secondAttribute="trailing" constant="10" id="oMz-Ve-OPX"/>
+                    <constraint firstItem="x0D-qs-7z6" firstAttribute="top" secondItem="fWi-y7-Das" secondAttribute="top" id="rgM-UF-bM9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="cellWrap" destination="x0D-qs-7z6" id="vXU-Pd-gxF"/>
+                <outlet property="colorName" destination="hKZ-eS-gg3" id="vzE-Mi-Fhg"/>
+                <outlet property="colorWrap" destination="V5g-GH-aH1" id="pt4-AP-diG"/>
+            </connections>
+            <point key="canvasLocation" x="-156" y="27"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -36,6 +36,7 @@ class PhoneCertVC: UIViewController {
         self.uiInit()
 //        self.keyboardInit()
 //        self.delegateInit()
+        
     }
     
     func uiInit() {
@@ -112,9 +113,13 @@ class PhoneCertVC: UIViewController {
         self.view.endEditing(true)
     }
     @IBAction func nextStepBtn(_ sender: Any) {
-        let authorityVC = signUpStoryBoard.instantiateViewController(withIdentifier: "AuthorityVC") as! AuthorityVC
+//        let authorityVC = signUpStoryBoard.instantiateViewController(withIdentifier: "AuthorityVC") as! AuthorityVC
       
-        self.present(authorityVC, animated: true, completion: nil)
+//        self.present(authorityVC, animated: true, completion: nil)
+        
+        let passwordSettingVC = signUpStoryBoard.instantiateViewController(withIdentifier: "PasswordSettingVC") as! PasswordSettingVC
+      
+        self.present(passwordSettingVC, animated: true, completion: nil)
     }
     //
 //    @IBAction func nextStepBtn(_ sender: Any) {

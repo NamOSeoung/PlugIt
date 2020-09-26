@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>&apos;플러그잇&apos; 앱은 사용자의 보다 정확한 자동차 위치 파악을 위해 사용자의 위치정보를 필요로 합니다.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>&apos;플러그잇&apos; 앱은 사용자의 보다 정확한 자동차 위치 파악을 위해 카메라 접근 권한을 필요로 합니다.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>&apos;플러그잇&apos; 앱은 사용자의 보다 정확한 자동차 위치 파악을 위해 엘밤 접근 권한을 필요로 합니다.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
