@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Compact-Text-Bold.otf">
+            <string>SFCompactText-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CarRegistModelCell" id="bRy-N3-fFR" customClass="CarRegistModelCell" customModule="PlugIt" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="172" height="168"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="9Um-Q7-2pM">
+                <rect key="frame" x="0.0" y="0.0" width="172" height="168"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6WC-fh-cGq">
+                        <rect key="frame" x="8.5" y="10" width="155" height="148"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="ODI-NW-4Dy">
+                                <rect key="frame" x="0.0" y="26" width="155" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="79" id="xnU-d0-CKH"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Model X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Gp-YJ-qpL">
+                                <rect key="frame" x="0.0" y="133" width="155" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="r7h-W1-lfP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFCompactText-Bold" family="SF Compact Text" pointSize="14"/>
+                                <color key="textColor" red="0.14117647058823529" green="0.14117647058823529" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ODI-NW-4Dy" firstAttribute="top" secondItem="6WC-fh-cGq" secondAttribute="top" constant="26" id="6HZ-f6-BI0"/>
+                            <constraint firstItem="3Gp-YJ-qpL" firstAttribute="leading" secondItem="6WC-fh-cGq" secondAttribute="leading" id="TqQ-cV-AU5"/>
+                            <constraint firstAttribute="trailing" secondItem="ODI-NW-4Dy" secondAttribute="trailing" id="UZl-eV-M5a"/>
+                            <constraint firstAttribute="trailing" secondItem="3Gp-YJ-qpL" secondAttribute="trailing" id="dbI-IO-ssa"/>
+                            <constraint firstItem="3Gp-YJ-qpL" firstAttribute="top" secondItem="ODI-NW-4Dy" secondAttribute="bottom" constant="28" id="rDt-bt-xuz"/>
+                            <constraint firstItem="ODI-NW-4Dy" firstAttribute="leading" secondItem="6WC-fh-cGq" secondAttribute="leading" id="sRn-sX-WuN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="6WC-fh-cGq" secondAttribute="bottom" constant="10" id="3cq-2j-y6s"/>
+                    <constraint firstItem="6WC-fh-cGq" firstAttribute="top" secondItem="9Um-Q7-2pM" secondAttribute="top" constant="10" id="DLb-vZ-6gB"/>
+                    <constraint firstAttribute="trailing" secondItem="6WC-fh-cGq" secondAttribute="trailing" constant="8.5" id="qXR-tl-Iax"/>
+                    <constraint firstItem="6WC-fh-cGq" firstAttribute="leading" secondItem="9Um-Q7-2pM" secondAttribute="leading" constant="8.5" id="tDJ-6K-FzL"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <connections>
+                <outlet property="modelWrap" destination="6WC-fh-cGq" id="XZ8-kM-RfJ"/>
+            </connections>
+            <point key="canvasLocation" x="100.00000000000001" y="88.392857142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="1" width="305" height="160.5"/>
+    </resources>
+</document>

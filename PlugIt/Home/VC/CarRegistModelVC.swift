@@ -1,33 +1,34 @@
 //
-//  CarRegistColorVC.swift
+//  CarRegistModel.swift
 //  PlugIt
 //
-//  Created by 남오승 on 2020/09/26.
+//  Created by 남오승 on 2020/09/27.
 //
 
 import UIKit
 
-class CarRegistColorVC: UIViewController {
+class CarRegistModelVC: UIViewController {
 
-    //colorTableView
-    @IBOutlet weak var colorTV: UITableView!
-    
     @IBOutlet weak var modelWrap: UIView!
-    
     @IBOutlet weak var modelImageWrap: UIView!
-
     
-    var carRegistColorCell : CarRegistColorCell?
     
+    var carRegistModelCell : CarRegistModelCell?
+    
+    @IBOutlet weak var modelOptionCV: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.uiInit()
+        
+        self.modelOptionCV.register(UINib(nibName: "CarRegistModelCell", bundle: nil), forCellWithReuseIdentifier: "CarRegistModelCell")
+        
+
     }
     
     func uiInit() {
-        colorTV.delegate = self
-        colorTV.dataSource = self
-        colorTV.backgroundColor = .white
+        modelOptionCV.delegate = self
+        modelOptionCV.dataSource = self
+        modelOptionCV.backgroundColor = .clear
         
         modelImageWrap.layer.borderWidth = 1.0
         modelImageWrap.layer.borderColor = UIColor(red: 245/255, green:245/255, blue: 245/255, alpha: 1).cgColor

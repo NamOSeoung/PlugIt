@@ -67,6 +67,14 @@
 		1A2B7FEC251F76E900372D3F /* CarRegistColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B7FEB251F76E900372D3F /* CarRegistColorCell.swift */; };
 		1A2B7FF1251F76F500372D3F /* CarRegistColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B7FF0251F76F500372D3F /* CarRegistColorCell.xib */; };
 		1A2B7FF6251F783200372D3F /* CarRegistColorTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B7FF5251F783200372D3F /* CarRegistColorTV.swift */; };
+		1AA497ED252010EA0099059C /* CarRegistModelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA497EC252010EA0099059C /* CarRegistModelCell.swift */; };
+		1AA497F2252010F20099059C /* CarRegistModelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AA497F1252010F20099059C /* CarRegistModelCell.xib */; };
+		1AA497F8252013A10099059C /* CarRegistModelCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA497F7252013A10099059C /* CarRegistModelCV.swift */; };
+		1AA4980025201FCA0099059C /* CarRegistModelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA497FF25201FCA0099059C /* CarRegistModelVC.swift */; };
+		1AA4981125205E400099059C /* CarRegistModelOptionVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA4981025205E400099059C /* CarRegistModelOptionVC2.swift */; };
+		1AA498162520837A0099059C /* CarOptionOneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA498152520837A0099059C /* CarOptionOneCell.swift */; };
+		1AA4981B252083850099059C /* CarOptionOneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AA4981A252083850099059C /* CarOptionOneCell.xib */; };
+		1AA49820252084660099059C /* CarRegistModelOptionTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA4981F252084660099059C /* CarRegistModelOptionTV.swift */; };
 		1AEC112C251DBF39002A3092 /* AppleSDGothicNeoEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A259BF0251B3E3100FDEE60 /* AppleSDGothicNeoEB.ttf */; };
 		1AEC1132251DCCB1002A3092 /* BottomSheet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC1131251DCCB1002A3092 /* BottomSheet.storyboard */; };
 		1AEC1141251DD1EF002A3092 /* SignUpTermsBS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC1140251DD1EF002A3092 /* SignUpTermsBS.swift */; };
@@ -181,6 +189,14 @@
 		1A2B7FEB251F76E900372D3F /* CarRegistColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRegistColorCell.swift; sourceTree = "<group>"; };
 		1A2B7FF0251F76F500372D3F /* CarRegistColorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarRegistColorCell.xib; sourceTree = "<group>"; };
 		1A2B7FF5251F783200372D3F /* CarRegistColorTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRegistColorTV.swift; sourceTree = "<group>"; };
+		1AA497EC252010EA0099059C /* CarRegistModelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRegistModelCell.swift; sourceTree = "<group>"; };
+		1AA497F1252010F20099059C /* CarRegistModelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarRegistModelCell.xib; sourceTree = "<group>"; };
+		1AA497F7252013A10099059C /* CarRegistModelCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRegistModelCV.swift; sourceTree = "<group>"; };
+		1AA497FF25201FCA0099059C /* CarRegistModelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRegistModelVC.swift; sourceTree = "<group>"; };
+		1AA4981025205E400099059C /* CarRegistModelOptionVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRegistModelOptionVC2.swift; sourceTree = "<group>"; };
+		1AA498152520837A0099059C /* CarOptionOneCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarOptionOneCell.swift; sourceTree = "<group>"; };
+		1AA4981A252083850099059C /* CarOptionOneCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarOptionOneCell.xib; sourceTree = "<group>"; };
+		1AA4981F252084660099059C /* CarRegistModelOptionTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRegistModelOptionTV.swift; sourceTree = "<group>"; };
 		1AEC1131251DCCB1002A3092 /* BottomSheet.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BottomSheet.storyboard; sourceTree = "<group>"; };
 		1AEC1140251DD1EF002A3092 /* SignUpTermsBS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTermsBS.swift; sourceTree = "<group>"; };
 		1AEC1145251DF28A002A3092 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
@@ -394,6 +410,14 @@
 			path = VC;
 			sourceTree = "<group>";
 		};
+		1AA497F62520138A0099059C /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				1AA497F7252013A10099059C /* CarRegistModelCV.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 		1AEC119F251E11CA002A3092 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -410,7 +434,9 @@
 				1AEC11A9251E148B002A3092 /* HomeVC.swift */,
 				1AEC11AE251E24BC002A3092 /* AlarmPageVC.swift */,
 				1A2B7FDE251F769600372D3F /* CarRegistColorVC.swift */,
+				1AA497FF25201FCA0099059C /* CarRegistModelVC.swift */,
 				1A2B7FE3251F76A900372D3F /* CarRegistModelOptionVC.swift */,
+				1AA4981025205E400099059C /* CarRegistModelOptionVC2.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -418,6 +444,7 @@
 		1AEC11B3251E24E3002A3092 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1AA497F62520138A0099059C /* CollectionView */,
 				1AEC11B4251E24E9002A3092 /* TableView */,
 			);
 			path = Extension;
@@ -428,6 +455,7 @@
 			children = (
 				1AEC11B5251E24F6002A3092 /* AlarmPageTV.swift */,
 				1A2B7FF5251F783200372D3F /* CarRegistColorTV.swift */,
+				1AA4981F252084660099059C /* CarRegistModelOptionTV.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -446,6 +474,8 @@
 			children = (
 				1AEC11BD251E2625002A3092 /* AlarmCell.xib */,
 				1A2B7FF0251F76F500372D3F /* CarRegistColorCell.xib */,
+				1AA497F1252010F20099059C /* CarRegistModelCell.xib */,
+				1AA4981A252083850099059C /* CarOptionOneCell.xib */,
 			);
 			path = Xib;
 			sourceTree = "<group>";
@@ -455,6 +485,8 @@
 			children = (
 				1AEC11C2251E2637002A3092 /* AlarmCell.swift */,
 				1A2B7FEB251F76E900372D3F /* CarRegistColorCell.swift */,
+				1AA497EC252010EA0099059C /* CarRegistModelCell.swift */,
+				1AA498152520837A0099059C /* CarOptionOneCell.swift */,
 			);
 			path = XibVC;
 			sourceTree = "<group>";
@@ -585,6 +617,7 @@
 			files = (
 				1AEC1176251DF4C0002A3092 /* NotoSansCJKkr-DemiLight.otf in Resources */,
 				1AEC114C251DF28B002A3092 /* NotoSans-Regular.ttf in Resources */,
+				1AA4981B252083850099059C /* CarOptionOneCell.xib in Resources */,
 				1A259B99251B2DCE00FDEE60 /* LaunchScreen.storyboard in Resources */,
 				1AEC116A251DF4C0002A3092 /* NotoSansCJKkr-Black.otf in Resources */,
 				1AEC11A5251E124A002A3092 /* Home.storyboard in Resources */,
@@ -596,6 +629,7 @@
 				1A259C44251B623800FDEE60 /* SF-Compact-Text-Heavy.otf in Resources */,
 				1AEC11BE251E2625002A3092 /* AlarmCell.xib in Resources */,
 				1AEC1132251DCCB1002A3092 /* BottomSheet.storyboard in Resources */,
+				1AA497F2252010F20099059C /* CarRegistModelCell.xib in Resources */,
 				1A259C59251B623800FDEE60 /* SF-Compact-Text-LightItalic.otf in Resources */,
 				1A259B96251B2DCE00FDEE60 /* Assets.xcassets in Resources */,
 				1A259C3E251B623800FDEE60 /* SF-Compact-Text-Light.otf in Resources */,
@@ -737,12 +771,16 @@
 				1A259CA7251B849E00FDEE60 /* Common.swift in Sources */,
 				1A259B91251B2DCD00FDEE60 /* ViewController.swift in Sources */,
 				1A2B7FDF251F769600372D3F /* CarRegistColorVC.swift in Sources */,
+				1AA497F8252013A10099059C /* CarRegistModelCV.swift in Sources */,
 				1AEC1141251DD1EF002A3092 /* SignUpTermsBS.swift in Sources */,
+				1AA498162520837A0099059C /* CarOptionOneCell.swift in Sources */,
 				1A259C82251B6A0C00FDEE60 /* SignUpNameTF.swift in Sources */,
 				1A259C8D251B710A00FDEE60 /* SignUpEmailVC.swift in Sources */,
+				1AA497ED252010EA0099059C /* CarRegistModelCell.swift in Sources */,
 				1A259B8D251B2DCD00FDEE60 /* AppDelegate.swift in Sources */,
 				1AEC1194251E0B28002A3092 /* SignUpCompleteVC.swift in Sources */,
 				1AEC11B6251E24F6002A3092 /* AlarmPageTV.swift in Sources */,
+				1AA49820252084660099059C /* CarRegistModelOptionTV.swift in Sources */,
 				1AEC11C3251E2637002A3092 /* AlarmCell.swift in Sources */,
 				1A259B8F251B2DCD00FDEE60 /* SceneDelegate.swift in Sources */,
 				1AEC11AF251E24BC002A3092 /* AlarmPageVC.swift in Sources */,
@@ -751,6 +789,8 @@
 				1A2B7FEC251F76E900372D3F /* CarRegistColorCell.swift in Sources */,
 				1A259BEC251B399300FDEE60 /* StoryBoardInstance.swift in Sources */,
 				1A259C88251B708B00FDEE60 /* ExtensionCollection.swift in Sources */,
+				1AA4980025201FCA0099059C /* CarRegistModelVC.swift in Sources */,
+				1AA4981125205E400099059C /* CarRegistModelOptionVC2.swift in Sources */,
 				1A259C67251B663500FDEE60 /* SignUpNameVC.swift in Sources */,
 				1A259BE3251B393A00FDEE60 /* StartVC.swift in Sources */,
 				1A259CBE251B95BD00FDEE60 /* AuthorityVC.swift in Sources */,
